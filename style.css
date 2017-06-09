@@ -1,7 +1,13 @@
 html {
-    max-width: 1200px;
-   
+    max-width: 1200px;   
 } 
+* {
+    box-sizing: border-box;
+}
+
+.inner-container{
+    width: 85%;
+}
 /* Header/Navbar */
 
 header {
@@ -23,13 +29,14 @@ li {
     list-style-type: none;
 }  /* also removes bullets from nav elements */
 
-.greeting {
-    color: green;
-}
+
 
 h1 {
     font-family: 'Crimson Text', serif;
 }
+
+
+/*jobs */
 
 
 /* Projects */
@@ -58,7 +65,7 @@ h1 {
 footer {
     width: 100%;
     text-align: center;
-    border-top: 5px, solid, black;
+    
 
 }
 
