@@ -1,0 +1,50 @@
+.html {
+    max-width: 1200px;
+    font-family: 'Lato', sans-serif;
+} 
+
+.nav .h1 .contact {
+    font-family: 'Crimsom Text', serif;
+}
+
+.body {
+   font-family: "Lato" , sans-serif;
+}
+
+.greeting {
+    color: green;
+}
+
+
+
+
+.projects {
+    width: 1200px;
+    height: 300px;
+    padding-left: 100px;
+
+}
+
+.project {
+    position: float;
+    display: inline;
+}
+
+.project img {
+    width: 300px;
+    height: 150px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.bye {
+    height: 100px;
+    width: 100px;
+
+    
+}
+
+.footer.img {
+    max-height: 50px;
+}
+
