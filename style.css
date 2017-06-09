@@ -1,22 +1,36 @@
-.html {
+html {
     max-width: 1200px;
-    font-family: 'Lato', sans-serif;
+   
 } 
+/* Header/Navbar */
 
-.nav .h1 .contact {
-    font-family: 'Crimsom Text', serif;
+header {
+    font-family: 'Crimson Text', serif;
 }
 
-.body {
-   font-family: "Lato" , sans-serif;
+.nav {
+    
 }
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+/* Headshot section */
+li {
+    list-style-type: none;
+}  /* also removes bullets from nav elements */
 
 .greeting {
     color: green;
 }
 
+h1 {
+    font-family: 'Crimson Text', serif;
+}
 
 
+/* Projects */
 
 .projects {
     width: 1200px;
@@ -33,18 +47,32 @@
 .project img {
     width: 300px;
     height: 150px;
-    padding: 0px;
+    padding: -10px;
     margin: 0px;
 }
 
-.bye {
-    height: 100px;
-    width: 100px;
+/* Footer Styling */
 
-    
+.footer {
+
+   /* position: relative;  */
+    width: 100%;
+    float: left;
+    border-top: 5px, solid, black;
+
 }
 
-.footer.img {
-    max-height: 50px;
+.bye {
+    height: 50px;
+    width: 200px;
+    padding-top: 35px;
+    display: inline-flex; 
+}
+
+.social {
+    max-height: 25px;
+    width: 25px;
+    padding: 2em;
+    margin: 0px;
 }
 
