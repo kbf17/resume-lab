@@ -57,7 +57,7 @@ body {
 /* Headshot section */
 .headshot {
     width: 85%;
-    margin: 45px;
+    margin: 0 auto;
     
 }
 
@@ -140,8 +140,8 @@ h1.color-text {
     width: 85%;
     margin: 0 auto;
 }
-contact.h1 {
-
+h1.crimson {
+    font-size: 48px;
 }
 
 .work-together {
