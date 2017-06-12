@@ -79,11 +79,29 @@ h1.color-text {
 /* Greeting Section */
 .greeting {
     background-color: lightgray;
+    width: 1200px;
+    padding: 3em;
 }
+
+.hello-left {
+    text-align: right;
+    margin-left: 12em;
+    float: left;
+}
+
+.hello-left.h1 {
+    font-size: 3em;
+}
+
 
 #about {
     border: 3px solid black;
     background-color: white;
+    position: relative;
+    height: 14em;
+    width: 20em;
+    margin-left: 32em;
+    padding: 5px;
 }
 
 /*jobs */
