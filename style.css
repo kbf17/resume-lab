@@ -139,13 +139,19 @@ h1.color-text {
 #contact {
     width: 85%;
     margin: 0 auto;
+    padding-top: 2em;
 }
 h1.crimson {
     font-size: 48px;
+    position: relative;
+    display: inline;
+
 }
 
 .work-together {
     text-align: right;
+    float: right;
+    font-size: 12px;
 }
 
 form {
