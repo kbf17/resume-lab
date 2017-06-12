@@ -78,12 +78,14 @@ h1.color-text {
     background-color: lightgray;
     width: 1200px;
     padding: 3em;
+    display: inline-flex;
 }
 
 .hello-left {
     text-align: right;
-    margin-left: 12em;
+    padding-right: 2em;
     float: left;
+    width: 40%;
 }
 
 .hello-left.h1 {
@@ -95,8 +97,8 @@ h1.color-text {
     background-color: white;
     position: relative;
     height: 14em;
-    width: 20em;
-    margin-left: 32em;
+    width: 60%;
+    float: right;
     padding: 5px;
 }
 
@@ -133,6 +135,48 @@ h1.color-text {
     margin: 0 auto;
 }
 
+/* Contact section */
+#contact {
+    width: 85%;
+    margin: 0 auto;
+}
+contact.h1 {
+
+}
+
+.work-together {
+    text-align: right;
+}
+
+form {
+    width: 400px;
+    margin: 0 auto;
+}
+
+form input {
+    background-color: lightgrey;
+    font-style: oblique;
+    color: darkgray;
+    text-align: left;
+    width: 400px;
+    height: auto;
+}
+
+.message {
+    height: 200px;
+    width: 400px;
+    background-color: lightgray;
+    font-style: oblique;
+    color: darkgrey;
+}
+
+button {
+    color: white;
+    background-color: orangered;
+    border-radius: 20%;
+    text-align: right;
+}
+
 /* Footer Styling */
 
 footer {
@@ -145,8 +189,8 @@ footer {
 .bye {
     height: 50px;
     width: 200px;
-    padding-top: 35px;
-    display: inline-flex; 
+    padding: 10px;
+    font-style: italic;
 }
 
 footer img {
