@@ -1,17 +1,48 @@
 html {
-    max-width: 1200px;   
+    max-width: 1200px;
+    margin: 10px;
 } 
-* {
-    box-sizing: border-box;
-}
 
-.inner-container{
-    width: 85%;
-}
+
+
 /* Header/Navbar */
+
+
+h5 {
+    border: 3px solid black;
+    font-family: 'Crimson Text', serif;
+    color: orangered;
+    font-size: 16px;
+    width: 150px;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    float: left;
+}
 
 header {
     font-family: 'Crimson Text', serif;
+    display: inline; 
+}
+
+nav {
+    float: right;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  
+    text-align: right;
+    display: inline;
+}
+
+li {
+    float: right;
+    border-bottom: 3px solid orangered;
+    padding: 8px;
+    margin: 0px 5px;
 }
 
 a {
@@ -25,9 +56,7 @@ body {
 }
 
 /* Headshot section */
-li {
-    list-style-type: none;
-}  /* also removes bullets from nav elements */
+
 
 
 
@@ -37,8 +66,8 @@ h1 {
 
 
 /*jobs */
-#experience.inner-container {
-    
+.job {
+
 }
 
 
@@ -52,14 +81,13 @@ h1 {
 }
 
 .project {
-    position: float;
+   
     display: inline;
 }
 
 .project img {
     width: 300px;
     height: 150px;
-    padding: -10px;
     margin: 0px;
 }
 
@@ -84,3 +112,16 @@ footer img {
     
 }
 
+/* Styles across sections */
+
+.color-text {
+    color: orangered;
+}
+
+.inner-container{
+    width: 85%;
+}
+
+.crimson {
+    font-family: 'Crimson Text', serif;
+}
