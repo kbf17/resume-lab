@@ -22,7 +22,9 @@ h5 {
 
 header {
     font-family: 'Crimson Text', serif;
-    display: inline; 
+   /* display: inline;*/
+   height: 3em;
+   margin: 15px;
 }
 
 nav {
@@ -56,9 +58,19 @@ body {
 }
 
 /* Headshot section */
+.headshot {
+    width: 85%;
+    margin: 45px;
+    
+}
 
-
-
+.headshot-text {
+    height: 140px;
+    width: 400px;
+    position: relative;
+    bottom: 5em;
+    margin-left: 18em;
+}
 
 h1 {
     font-family: 'Crimson Text', serif;
